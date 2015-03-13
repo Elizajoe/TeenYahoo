@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C80539FF" >
+
+    <Spinner
+        android:id="@+id/spSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/tvEditSize" />
+
+    <TextView
+        android:id="@+id/tvEditSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spSize"
+        android:layout_alignParentTop="true"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:text="Edit Size" />
+
+    <Spinner
+        android:id="@+id/spColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spType"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvEditSize" />
+
+    <TextView
+        android:id="@+id/tvColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spColor"
+        android:layout_alignTop="@+id/spColor"
+        android:layout_toLeftOf="@+id/spType"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:text="Set Color" />
+
+    <TextView
+        android:id="@+id/tvType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/spType"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spColor"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:text="Edit Type" />
+
+    <Spinner
+        android:id="@+id/spType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spColor"
+        android:layout_toRightOf="@+id/tvType" />
+
+    <EditText
+        android:id="@+id/site"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvType"
+        android:ems="10"
+        android:hint="Site Filter"
+        android:textColor="#000000"
+        android:inputType="textEmailAddress" />
+
+</RelativeLayout>

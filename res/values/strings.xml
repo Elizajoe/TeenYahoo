@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GridImageSearch</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_prompt">Enter search query</string>
+    <string name="search_label">Search</string>
+    <string name="image_title_label">Image Title</string>
+    <string name="title_activity_image_display">Full Image</string>
+    <string name="app_title">Google Image Searcher</string>
+    <string name="request_filter_item">search filter</string>
+    <string-array name="image_size">
+        <item>small</item>
+        <item>big</item>
+        <item>large</item>
+    </string-array>
+    
+
+</resources>

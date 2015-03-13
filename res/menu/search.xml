@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.gridimagesearch.SearchActivity" >
+
+    <item 
+        android:id="@+id/miFilter"
+        android:icon="@drawable/ic_search_filter"
+        android:title="@string/request_filter_item"
+        android:showAsAction = "always"
+        ></item>
+    
+    
+</menu>
